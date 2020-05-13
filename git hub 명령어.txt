@@ -1,0 +1,48 @@
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (jh)
+$ git status
+On branch jh
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    jh add.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        jh modified.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (jh)
+$ git add .
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (jh)
+$ git commit -m "[200513] jh modified"
+[jh 9ca830c] [200513] jh modified
+ 2 files changed, 1 insertion(+)
+ delete mode 100644 jh add.txt
+ create mode 100644 jh modified.txt
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (jh)
+$ git push origin jh
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 301 bytes | 301.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/2020CSE-Capstone/PracticeGit.git
+   6390aec..9ca830c  jh -> jh
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (jh)
+$ git checkout master
+Switched to branch 'master'
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (master)
+$ git checkout jh
+Switched to branch 'jh'
+
+kimjuhyeong@DESKTOP-TI8LJLN MINGW64 /c/Workspace/Capstone/Capstone-Sample (jh)
+$
+
+
